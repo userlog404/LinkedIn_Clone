@@ -1,0 +1,28 @@
+[debug] [2021-09-26T07:32:32.818Z] ----------------------------------------------------------------------
+[debug] [2021-09-26T07:32:32.822Z] Command:       /usr/bin/node /usr/local/bin/firebase deploy
+[debug] [2021-09-26T07:32:32.824Z] CLI Version:   9.18.0
+[debug] [2021-09-26T07:32:32.824Z] Platform:      linux
+[debug] [2021-09-26T07:32:32.824Z] Node Version:  v12.22.5
+[debug] [2021-09-26T07:32:32.825Z] Time:          Sun Sep 26 2021 20:32:32 GMT+1300 (New Zealand Daylight Time)
+[debug] [2021-09-26T07:32:32.825Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-09-26T07:32:32.919Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-26T07:32:32.920Z] > authorizing via signed-in user (classyneon@gmail.com)
+[debug] [2021-09-26T07:32:32.920Z] [iam] checking project linkedin-clone-3498e for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-09-26T07:32:32.924Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/linkedin-clone-3498e:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-09-26T07:32:33.672Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 26 Sep 2021 18:50:29 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=236","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-09-26T07:32:33.677Z] > refreshing access token with scopes: []
+[debug] [2021-09-26T07:32:33.679Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-09-26T07:32:34.080Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Sun, 26 Sep 2021 18:50:29 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-09-26T07:32:34.215Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/linkedin-clone-3498e [none]
+[debug] [2021-09-26T07:32:35.036Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/linkedin-clone-3498e 200
+[debug] [2021-09-26T07:32:35.036Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/linkedin-clone-3498e {"projectId":"linkedin-clone-3498e","projectNumber":"296328169413","displayName":"linkedin-clone","name":"projects/linkedin-clone-3498e","resources":{"hostingSite":"linkedin-clone-3498e","storageBucket":"linkedin-clone-3498e.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'linkedin-clone-3498e'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-09-26T07:32:35.046Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-09-26T07:32:35.047Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
